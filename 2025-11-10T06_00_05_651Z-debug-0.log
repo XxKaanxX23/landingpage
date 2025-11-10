@@ -1,0 +1,37 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\kaank\Downloads\New folder (6)\.npmrc
+5 silly config load:file:C:\Users\kaank\.npmrc
+6 silly config load:file:C:\Users\kaank\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\kaank\AppData\Local\npm-cache\_logs\2025-11-10T06_00_05_651Z-
+10 verbose logfile C:\Users\kaank\AppData\Local\npm-cache\_logs\2025-11-10T06_00_05_651Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\kaank\Downloads\New folder (6)\package.json'
+13 verbose stack     at async open (node:internal/fs/promises:641:25)
+13 verbose stack     at async readFile (node:internal/fs/promises:1245:14)
+13 verbose stack     at async read (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:9:18)
+13 verbose stack     at async PackageJson.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:132:31)
+13 verbose stack     at async PackageJson.normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:118:5)
+13 verbose stack     at async #run (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:86:13)
+13 verbose stack     at async RunScript.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:40:7)
+13 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+13 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+14 error code ENOENT
+15 error syscall open
+16 error path C:\Users\kaank\Downloads\New folder (6)\package.json
+17 error errno -4058
+18 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\kaank\Downloads\New folder (6)\package.json'
+19 error enoent This is related to npm not being able to find a file.
+19 error enoent
+20 verbose cwd C:\Users\kaank\Downloads\New folder (6)
+21 verbose os Windows_NT 10.0.26200
+22 verbose node v22.20.0
+23 verbose npm  v10.9.3
+24 verbose exit -4058
+25 verbose code -4058
+26 error A complete log of this run can be found in: C:\Users\kaank\AppData\Local\npm-cache\_logs\2025-11-10T06_00_05_651Z-debug-0.log
